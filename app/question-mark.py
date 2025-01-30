@@ -61,13 +61,13 @@ print("\nHEY! WELCOME TO QUESTION-MARK")
 print("\nI'll ask you some questions and you'll have to answer!")
 print("""\nThe rules are simple:
     1. The answers will only be one word, you can use lower or upper cases. I don't really care.
-    2. The minimun of questions is 1, the limit is 15 (believe me, you'll bore if more).
+    2. The minimun of questions is 1, the limit is 10 (believe me, you'll bore if more).
     3. The number of questions you choose has to be an integer.""")
 
 try:
     totalQuestions = int(input("\nLet's start! How many questions do you want to answer?: "))
     
-    if not (1 <= totalQuestions <= 15):
+    if not (1 <= totalQuestions <= 10):
         exceptions()
         quit()
     
